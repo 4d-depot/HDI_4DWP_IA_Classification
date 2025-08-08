@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_4DWP_IA_Classification" uuid="0197B28E47DA767A9D5CAC0611B42E3C" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Document" uuid="0197B28EC2C77B9DAB7AA0678CC58D86" id="1">
+		<field name="ID" uuid="0197B28EC2C87AE1ADF383F98CED9AC4" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Title" uuid="0197B28EF3B17062B6F5024ECC46FC57" type="10" limiting_length="255" id="2"/>
+		<field name="WP" uuid="0197B28F27B67526B3F48740433C42F2" type="21" blob_switch_size="2147483647" id="3"/>
+		<field name="Tone" uuid="0197B28F4E1F7004B35FFAAFE0900001" type="10" limiting_length="255" id="4"/>
+		<field name="Tags" uuid="0197B28FBDC675FBA71FE11E1B1F62C7" type="10" limiting_length="255" id="5"/>
+		<field name="Quality_Score" uuid="0197B28FF54F74F9B467B579A75C5D29" type="4" id="6"/>
+		<field name="Quality_Comment" uuid="0197B2919DF5716087AFA3A23605E7E3" type="10" limiting_length="255" id="7"/>
+		<field name="Tone_Emoji" uuid="0197B2F508427CB0866E909528DDCD5C" type="10" limiting_length="255" id="8"/>
+		<primary_key field_name="ID" field_uuid="0197B28EC2C87AE1ADF383F98CED9AC4"/>
+		<table_extra output_form="List" input_form="Detail"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="0197B28EC2C87F168A272D6F77CA972C" type="7">
+		<field_ref uuid="0197B28EC2C87AE1ADF383F98CED9AC4" name="ID">
+			<table_ref uuid="0197B28EC2C77B9DAB7AA0678CC58D86" name="Document"/>
+		</field_ref>
+	</index>
+	<base_extra>
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

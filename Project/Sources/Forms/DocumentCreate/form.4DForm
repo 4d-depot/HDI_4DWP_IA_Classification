@@ -1,0 +1,124 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 400,
+	"windowMinHeight": 400,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Document creation",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"WriteProArea": {
+					"type": "write",
+					"left": 19,
+					"top": 84,
+					"width": 531,
+					"height": 446,
+					"events": [
+						"onDataChange",
+						"onSelectionChange",
+						"onAfterEdit"
+					],
+					"dataSource": "Form:C1466.WP",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded"
+				},
+				"Button": {
+					"type": "button",
+					"text": "Save",
+					"top": 550,
+					"left": 460,
+					"width": 90,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm",
+					"dataSource": "",
+					"sizingX": "move",
+					"sizingY": "move",
+					"defaultButton": true
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Cancel",
+					"top": 550,
+					"left": 350,
+					"width": 90,
+					"height": 22,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel",
+					"sizingX": "move",
+					"sizingY": "move"
+				},
+				"Check Box": {
+					"type": "checkbox",
+					"text": "Trace",
+					"top": 553,
+					"left": 19,
+					"width": 105,
+					"height": 17,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "Form:C1466.trace",
+					"dataSourceTypeHint": "boolean",
+					"sizingY": "move"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Enter your text, then click the “Save” button.\rThe document will be saved to the database and automatically analyzed.",
+					"top": 20,
+					"left": 20,
+					"width": 527,
+					"height": 46,
+					"sizingX": "grow",
+					"fontWeight": "bold"
+				}
+			}
+		}
+	],
+	"geometryStamp": 42,
+	"method": "method.4dm",
+	"menuBar": "Menu Bar #2",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

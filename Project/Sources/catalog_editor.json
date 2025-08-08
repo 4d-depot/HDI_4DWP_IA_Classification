@@ -1,0 +1,19 @@
+{
+	"tables": {
+		"Document": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 40,
+				"top": 40,
+				"width": 171.53515625,
+				"height": 216.36328125
+			},
+			"displayable_fields_count": 8
+		}
+	}
+}
