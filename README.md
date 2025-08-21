@@ -4,6 +4,10 @@ Categorize [4D Write Pro](https://us.4d.com/4D-write-pro) documents via AI with 
 
 Find more information on the [blog post](https://blog.4d.com/).
 
+### Live action
+
+[![Youtube link](https://img.youtube.com/vi/lkbJvPra1KM/0.jpg)](https://youtu.be/lkbJvPra1KM)
+
 ## Installing and Using a 4D Project
 
 ### Pre-requisites
